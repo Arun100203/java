@@ -42,8 +42,7 @@ public class AddStrings {
             quotient.append('0');
         }
 
-        // Print the quotient
-        System.out.println("Quotient: " + quotient);
+        return quotient;
     }
     // Compare two integer arrays (returns 1 if a > b, 0 if a == b, -1 if a < b)
     private static int compare(int[] a, int[] b) {
